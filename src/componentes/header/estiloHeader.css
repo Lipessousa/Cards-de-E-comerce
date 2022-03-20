@@ -1,0 +1,21 @@
+.header{
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.logo{
+    width: 160px;
+    height: 30px;
+}
+
+.link{
+   vertical-align: inherit;
+   text-decoration: none;
+   color: #8e8e8e;;
+}
+
+.link:hover { 
+    color: #ffffff; 
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0.7;
+}

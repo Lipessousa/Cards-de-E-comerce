@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.boxProdutos {
+    background-color: white;
+    color: black;
+    margin: 25px 10px 0;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    cursor: pointer;
+}
+
+.boxProdutos:hover{
+    transition: cubic-bezier (0,0,.10,1);
+    transition: all .5s ;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.imgPai{
+    height: 70%;
+}
+
+.imgProduto {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nomeProduto {
+    text-decoration: none;
+}
+
+td{
+    padding: 5px;
+}
+
+button{
+    margin-left: 100px;
+}
+
+ 
